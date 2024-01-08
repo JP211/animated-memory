@@ -4,6 +4,19 @@ export const s = StyleSheet.create({
   root: {
     flex: 1,
     backgroundColor: "#fff",
-    paddingTop: 15,
+    paddingTop: 5,
+    
+  },
+  header: {
+    flex: 1,
+    
+  },
+  body: {
+    flex: 8,
+    
+  },
+  bottom: {
+    flex: 0,
+   
   },
 });

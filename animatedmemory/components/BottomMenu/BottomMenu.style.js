@@ -1,11 +1,18 @@
 import { StyleSheet } from "react-native";
 
 export const s = StyleSheet.create({
-    tabContainer: {
-        backgroundColor: "white",
-        flex: 1,
-        flexDirection: "row",
-        justifyContent: "space-evenly",
-        alignItems: "center",
-    },
-})
+
+  btnContainer: {
+    flexDirection: "row",
+    justifyContent: "space-evenly",
+    alignItems: "center",
+  },
+  btn: {
+    paddingRight: 35,
+    paddingLeft: 35,
+  },
+  btnText: {
+    fontSize: 18,
+    fontWeight: "bold",
+  },
+});
