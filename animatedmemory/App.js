@@ -3,6 +3,7 @@ import { Text, View } from "react-native";
 import { s } from "./App.style";
 
 import { Header } from "./components/Header/Header";
+import { BottomMenu } from "./components/BottomMenu/BottomMenu";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <View style={s.root}>
           <Text>Time to get to work.</Text>
         </View>
+        <BottomMenu />
       </SafeAreaView>
     </SafeAreaProvider>
   );
