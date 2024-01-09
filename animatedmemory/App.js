@@ -4,6 +4,7 @@ import { s } from "./App.style";
 
 import { Header } from "./components/Header/Header";
 import { BottomMenu } from "./components/BottomMenu/BottomMenu";
+import { ChallengeCard } from "./components/ChallengeCard/ChallengeCard";
 
 export default function App() {
   return (
@@ -16,7 +17,9 @@ export default function App() {
         <View style={s.body}>
           <Text>Time to get to work.</Text>
         </View>
+        <ChallengeCard />
         <View style={s.bottom}>
+       
         <BottomMenu />
         </View>
         
