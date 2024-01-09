@@ -1,5 +1,5 @@
 import { Text, View } from 'react-native'
-import { s } from "./Card";
+import { s } from "./Card.style";
 import React, { Component } from 'react'
 
 export class Card extends Component {

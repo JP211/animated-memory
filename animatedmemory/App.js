@@ -1,5 +1,5 @@
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
-import { Text, View } from "react-native";
+import { Text, View, ScrollView } from "react-native";
 import { s } from "./App.style";
 
 import { Header } from "./components/Header/Header";
@@ -17,8 +17,17 @@ export default function App() {
         <View style={s.body}>
           <Text>Time to get to work.</Text>
 
+         <ScrollView>
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+         </ScrollView>
         </View>
-        <Card />
+
         <View style={s.bottom}>
           <BottomMenu />
         </View>
