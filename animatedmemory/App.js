@@ -11,21 +11,17 @@ export default function App() {
     <SafeAreaProvider>
       <SafeAreaView style={s.root}>
         <View style={s.header}>
-        <Header />
+          <Header />
         </View>
-      
+
         <View style={s.body}>
           <Text>Time to get to work.</Text>
+
+        </View>
         <Card />
-        </View>
-       <View>
-       
-       </View>
         <View style={s.bottom}>
-       
-        <BottomMenu />
+          <BottomMenu />
         </View>
-        
       </SafeAreaView>
     </SafeAreaProvider>
   );

@@ -6,7 +6,7 @@ export class Card extends Component {
   render() {
     return (
       <View style={s.cardBody}>
-        <Text>Card</Text>
+        <Text style={s.title}>Challenge Title</Text>
       </View>
     )
   }
