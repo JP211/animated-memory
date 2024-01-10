@@ -7,6 +7,20 @@ import { BottomMenu } from "./components/BottomMenu/BottomMenu";
 import { Card } from "./components/Card/Card";
 
 export default function App() {
+  function renderChallenges() {
+    return (
+      <View>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </View>
+    );
+  }
+
   return (
     <SafeAreaProvider>
       <SafeAreaView style={s.root}>
@@ -17,15 +31,7 @@ export default function App() {
         <View style={s.body}>
           <Text>Time to get to work.</Text>
 
-         <ScrollView>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-         </ScrollView>
+          <ScrollView>{renderChallenges()}</ScrollView>
         </View>
 
         <View style={s.bottom}>

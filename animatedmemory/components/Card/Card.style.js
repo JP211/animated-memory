@@ -27,4 +27,9 @@ export const s = StyleSheet.create({
     color: "#fff",
     margin: 8,
   },
+  img: {
+    height: 25,
+    width: 25,
+    marginRight: 15,
+  },
 });
