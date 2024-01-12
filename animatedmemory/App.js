@@ -5,15 +5,12 @@ import { s } from "./App.style";
 import { Header } from "./components/Header/Header";
 import { BottomMenu } from "./components/BottomMenu/BottomMenu";
 import { Card } from "./components/Card/Card";
+import { AddButton } from "./components/AddButton/AddButton";
 
 export default function App() {
   function renderChallenges() {
     return (
       <View>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
         <Card />
         <Card />
         <Card />
@@ -36,6 +33,7 @@ export default function App() {
 
         <View style={s.bottom}>
           <BottomMenu />
+          <AddButton />
         </View>
       </SafeAreaView>
     </SafeAreaProvider>
